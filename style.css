@@ -1,0 +1,205 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+/* Instagram */
+.instagram{position: absolute;
+width: 200px;
+height: 200px;
+background: radial-gradient(circle farthest-corner at 35% 90%,
+ #fec564, transparent 50%),
+ radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+ radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+ radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
+ radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+ radial-gradient(ellipse farthest-corner at 60% -20%,
+ #893dc2, transparent 50%),
+ radial-gradient(ellipse farthest-corner at 100% 100%,
+ #d9317a, transparent), linear-gradient(#6559ca,
+ #bc318f 30%, #e33f5f 50%,
+ #f77638 70%, #fec66d 100%);
+margin-top: 20px;
+margin-left: 20px;
+border-radius: 27%;}
+#inst1{position: relative;
+top: 25px;
+left: 23px;
+border-radius: 24%;
+border: 11px solid white;
+width: 150px;
+height: 150px;}
+#inst2{position: relative;
+top: 8px;
+left: 95px;
+width: 18px;
+height: 18px;
+background: white;
+border-radius: 50%;}
+#inst3{position: relative;
+top: 1px;    
+left: 18px;
+border-radius: 50%;
+border: 11px solid white;
+width: 90px;
+height: 90px;}
+
+/* My-instagram */
+.my-instagram{position: absolute;
+width: 200px;
+height: 200px;
+border-radius: 27%;
+margin-top: 270px;
+margin-left: 20px;
+background-image: url(./images.jpg);
+border: 2px solid black;}
+#my-inst1{position: relative;
+top: 25px;
+left: 23px;
+border-radius: 24%;
+border: 11px solid white;
+width: 150px;
+height: 150px;
+}
+#my-inst2{position: relative;
+top: 8px;
+left: 95px;
+width: 18px;
+height: 18px;
+background: white;
+border-radius: 50%;}
+#my-inst3{position: relative;
+top: 1px;    
+left: 18px;
+border-radius: 50%;
+border: 11px solid white;
+width: 90px;
+height: 90px;}
+
+/* My pencil */
+.pencil{margin-top: 130px;
+margin-left: 600px;
+width: 85px;
+height: 490px;
+position: absolute;
+}
+.pencil {
+filter: drop-shadow(5px 10px 3px gray);
+}
+
+.taper{position: absolute;
+    margin-left: 21px;
+    border-left: 21px solid transparent;
+    border-right: 21px solid transparent;
+    border-bottom: 50px solid gray;
+    
+}
+/* Стержень карандаша */
+.taper1{position: absolute;
+height: 150px;
+width: 84px;
+border-left: 20px solid transparent;
+border-right: 20px solid transparent;
+border-bottom: 100px solid rgb(187, 150, 47);}
+
+/* Тело карандаша */
+#barel1{position: absolute;
+margin-top: 135px;
+background-color: rgb(2, 80, 2);
+height: 280px;
+width: 20px;
+border-top-right-radius: 1em ;
+border-top-left-radius: 0.5em ;
+animation: mig  5s infinite;
+}
+@keyframes mig {
+0% {
+  background: rgb(7, 7, 116);
+}
+44% {
+ background: rgb(7, 7, 116);
+}
+45% {
+  background: rgb(138, 6, 6);
+}
+74% {
+  background: rgb(138, 6, 6);
+    }
+    75%{
+        background: chartreuse;
+    }
+    100%{
+        background: chartreuse;
+    }
+    }
+#barel2{position: absolute;
+margin-top: 135px;
+margin-left: 20px;
+height: 280px;
+width: 44px;
+background-color: rgb(6, 138, 6);
+border-top-left-radius: 1.1em ;
+border-top-right-radius: 1.1em;
+animation: mig  5s infinite;
+}
+@keyframes mig {
+0% {
+  background: rgb(9, 9, 214);
+}
+44% {
+ background: rgb(9, 9, 214);
+}
+45% {
+  background: red;
+}
+74% {
+  background: red;
+    }
+    75%{
+        background: chartreuse;
+    }
+    100%{
+        background: chartreuse;
+    }
+    }
+#barel3{position: absolute;
+margin-top: 135px;
+margin-left: 64px;
+height: 280px;
+width: 20px;
+border-top-left-radius: 1em;
+border-top-right-radius: 0.5em ;
+background-color: rgb(42, 180, 42);
+animation: mig  5s infinite;
+}
+@keyframes mig {
+0% {
+  background: rgb(52, 140, 240);
+}
+44% {
+ background: rgb(52, 140, 240);
+}
+45% {
+  background: rgb(252, 59, 59);
+}
+74% {
+  background: rgb(252, 59, 59);
+    }
+    75%{
+        background: chartreuse;
+    }
+    100%{
+        background: chartreuse;
+    }
+    }
+
+/* Затирачка */
+.eraser {
+position: absolute;
+margin-top: 405px;
+width: 84px;
+height: 75px;
+background-color: lightpink;
+border-top: 2em rgb(114, 134, 250) ;
+border-bottom-left-radius: 0.5em;
+border-bottom-right-radius: 0.5em;
+}
